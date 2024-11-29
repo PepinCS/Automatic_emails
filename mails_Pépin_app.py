@@ -1,5 +1,5 @@
 # ==============================================================================
-# Author: Louisa Arfib
+# Author: Louisa Arfib for Pépin
 # Email: louisa.arfib@gmail.com
 # Date: 2024-11-29
 # Description: This script automates the sending of order recap emails.
