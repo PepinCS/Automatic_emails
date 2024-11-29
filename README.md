@@ -1,6 +1,6 @@
 # Automatic_emails
 
-This repository contains a Python application that automatically sends email recaps of orders. It allows you to upload a CSV file with order details and send emails to recipients with product lists and quantities. Be careful, don't use it mindelessly or you will spam hundreds of poor Pépin orderers...
+This repository contains a Python application that automatically sends email recaps of orders. It allows you to upload a CSV file with order details and send emails to recipients with product lists and quantities. Be careful, don't use it mindlessly or you will spam hundreds of poor Pépin orderers...
 
 ## Application Overview
 
@@ -45,10 +45,10 @@ If you need to modify the code (e.g., changing the Gmail password as mentioned),
    ```bash
    conda create -n pepin_env python=3.11
    conda activate pepin_env
-   pip install pyinstaller
+   pip install -r requirements.txt
 
 2. **Rebuild the Application**:
-   Navigate to the folder containing your Python script (mails_Pépin_app.py) and the logo_pepin_icon.ico (if applicable) using bash.
+   Navigate to the folder containing your Python script (mails_Pépin_app.py) and the logo_pepin_icon.ico using bash.
 
    ```bash
    pyinstaller --onefile --windowed --icon=logo_pepin_icon.ico mails_Pépin_app.py
