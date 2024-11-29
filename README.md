@@ -40,7 +40,7 @@ Once you've generated the new application password, update the password in the P
 If you need to modify the code (e.g., changing the Gmail password as mentioned), follow these steps to rebuild the `.exe` (Windows) or corresponding files for Mac/Linux:
 
 1. **Create a New Conda Environment**:
-   It's highly recommended to create a new environment to avoid unnecessary package installations. I like to use conda environments. If you have miniconda downloaded on your computer (which you should all have #les_cours_de_sip), you can follow these steps to create an env called pepin_env (3.11 might be outdated one day, to be honest the python version isn't that important, just don't change a very recent one to oavoid packages incompatibilities) :
+   It's highly recommended to create a new environment to avoid unnecessary package installations. I like to use conda environments. If you have miniconda downloaded on your computer (which you should all have #les_cours_de_sip), you can follow these steps to create an env called pepin_env (3.11 might be outdated one day, to be honest the python version isn't that important, just don't use a very recent one to avoid packages incompatibilities) :
    
    ```bash
    conda create -n pepin_env python=3.11
