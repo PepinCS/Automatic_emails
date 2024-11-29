@@ -1,3 +1,12 @@
+# ==============================================================================
+# Author: Louisa Arfib
+# Email: louisa.arfib@gmail.com
+# Date: 2024-11-29
+# Description: This script automates the sending of order recap emails.
+# License: MIT License
+# ==============================================================================
+
+
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QPushButton, QVBoxLayout, QWidget, QFileDialog, QProgressBar, QSpacerItem, QSizePolicy
 from PyQt5.QtCore import Qt
