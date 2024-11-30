@@ -6,7 +6,7 @@ This repository contains a Python application that automatically sends email rec
 
 - **Easy-to-use Interface**: No coding is required to use the application. Simply download the `.exe` file for Windows (or other versions for Mac/Linux) and run the program.
 - **Upload CSV**: The user can upload a CSV file containing order details, and the app will send emails to the recipients based on the provided information.
-- **Automatic Email Sending**: The app uses Gmail's SMTP to send emails with the order summary.
+- **Automatic Email Sending**: The app uses Gmail's SMTP to send emails with the order summary (but don't worry it is for informational purposes only).
 
 ### App Link
 You can download the application for Windows [here](https://drive.google.com/file/d/1kzxuW6yr_VZ8rYVQA2_hQc_boW5nK19g/view?usp=drive_link) and for Mac [here](https://drive.google.com/file/d/1SA9vIMJNTLyPxSx5zj0Mq1Hn0U4orqMb/view?usp=drive_link). Simply download the file to start using it!
@@ -14,7 +14,7 @@ You can download the application for Windows [here](https://drive.google.com/fil
 ## Usage
 
 1. **Download and Run the App**:  
-   Just download the `.exe` file (for Windows) or .app (for Mac) (sorry Linux users you can update the build.yml file if you want your own app but it is at your own risks in regards to packages compatibility, I didn't test it.). No coding or installation is required.
+   Just download the `.exe` file (for Windows) or '.app' (for Mac) (sorry Linux users you can update the build.yml file if you want your own app but it is at your own risks in regards to packages compatibility, I didn't test it.). No coding is required.
 
 2. **Upload CSV**:  
    Click on the "Upload CSV" button to select your CSV file containing the order details. The file should have columns for the customer's name, email address, order date, and product details.
