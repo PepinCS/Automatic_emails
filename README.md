@@ -65,6 +65,9 @@ This will generate an .exe file if you are using a Windows in the dist folder, w
    If you are usig a Mac, you create the *windows* app by doing the same process, but before pushing you need to update the l10 of build.yml.
 
 6. **Upload the new apps on the drive**
-   Upload your two new files on the Pépin drive, so everyone can use you new app, just by downloading it !
+   Upload your two new files on the Pépin drive, so everyone can use you new app, just by downloading it ! (You might need to ask the VPépin to do it if you don't have the email password.)
    It's very important to always keep the 2 versions updated, so the users of every types of devices will be able to reuse your app.
+
+
+And if you think that this README is way too long, and you need help with the code, you can try to contact me at louisa.arfib@gmail.com.
 
