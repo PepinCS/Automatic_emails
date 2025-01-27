@@ -9,7 +9,7 @@ This repository contains a Python application that automatically sends email rec
 - **Automatic Email Sending**: The app uses Gmail's SMTP to send emails with the order summary (but don't worry it is for informational purposes only, you don't need to know that to use the app).
 
 ### App Link
-You can download the application for Windows [here](https://drive.google.com/file/d/1kzxuW6yr_VZ8rYVQA2_hQc_boW5nK19g/view?usp=drive_link) and for Mac [here](https://drive.google.com/file/d/1SA9vIMJNTLyPxSx5zj0Mq1Hn0U4orqMb/view?usp=drive_link). Simply download the file to start using it!
+You can download the application for Windows [here](https://drive.google.com/file/d/10uOF7JSatvahjKy7kVWmfglr5_PLeXdx/view?usp=sharing) and for Mac [here](https://drive.google.com/file/d/1H0uyyP_GMk7swLQEgPCU4F4plGESEaj1/view?usp=sharing). Simply download the file to start using it!
 
 ## Usage
 
@@ -22,6 +22,9 @@ You can download the application for Windows [here](https://drive.google.com/fil
 3. **Send Emails**:  
    Once the CSV file is uploaded, click on the "Send Emails" button. The app will automatically send emails to the addresses listed in the file, containing the order recaps. Once the progress bar reaches 100%, the sending process should be done, you can close the window.
 
+## If the app closes unexpectedly while you try to send emails
+
+There is probably a problem with the code. The most usual issue is that the google account password has been changed or the double-factor authentification has been disabled. To know what the error is I advise you to run the app from a python terminal. You have to follow the "How to Modify the Code" procedure, and run mails_Pépin_app.py in VSCode for the app to appear, the error should appear on your terminal. This shouldn't normally happen, if the sending is a little long... just wait ;-)
 
 ## How to Modify the Code (For Developers only, don't bother reading that if coding disgusts you)
 
