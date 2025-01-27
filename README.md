@@ -24,7 +24,8 @@ You can download the application for Windows [here](https://drive.google.com/fil
 
 ## If the app closes unexpectedly while you try to send emails
 
-There is probably a problem with the code. The most usual issue is that the google account password has been changed or the double-factor authentification has been disabled. To know what the error is I advise you to run the app from a python terminal. You have to follow the "How to Modify the Code" procedure, and run mails_Pépin_app.py in VSCode for the app to appear, the error should appear on your terminal. This shouldn't normally happen, if the sending is a little long... just wait ;-)
+There is probably a problem with the code. The most usual issue is that the google account password has been changed or the double-factor authentification has been disabled. To know what the error is I advise you to run the app from a python terminal. You have to follow the "How to Modify the Code" procedure, and run mails_Pépin_app.py in VSCode for the app to appear, the error should appear on your terminal. This shouldn't normally happen, if the sending is a little long... just wait ;-) 
+And if you just want to use the app without looking at the code, contact a developer or oen an issue on the repository ! (Don't hesitate to open one if you have ideas for new features or improvements also !)
 
 ## How to Modify the Code (For Developers only, don't bother reading that if coding disgusts you)
 
