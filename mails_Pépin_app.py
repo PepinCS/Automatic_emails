@@ -76,7 +76,7 @@ class EmailApp(QMainWindow):
 
     def send_emails(self):
         if self.df is not None:
-            yag = yagmail.SMTP('pepin.centralesupelec@gmail.com', 'nozn vlua dhar fesg')
+            yag = yagmail.SMTP('pepin.centralesupelec@gmail.com', 'kgor quqy rtwl rbej')
 
             row_count = len(self.df)
             
@@ -84,7 +84,7 @@ class EmailApp(QMainWindow):
                 # Extract personal information
                 name = row['Nom'] + " " + row['Prénom']
                 email = row['Adresse email']
-                date= row['Date de paiement']
+                date= row['Date of payment']
 
                 # Create a list of products and their quantities (ignore the first 4 columns)
                 products = row[4:-3]  # Skip the first 4 columns (personal details, amount and order date)
